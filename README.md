@@ -20,11 +20,15 @@
 ## 5. Kiểm tra điều kiện thua
 - Sau khi thêm 1 item vào Box, nếu box đã đủ 5 item (nhiều nhất 2 item cùng loại) thì sẽ thua
 - Hiển thị UI khi thua.
-## Requirements
+## In Requirements
 ## 1. Số Item trong bảng ban đầu luôn chi hết cho 3
+- Đảm bảo số cell trong bảng chia hết cho 3.
 ## 2. Vùng bên dưới có 5 Cells
+- Fix 5 ô khi tạo Box
 ## 3. Hiển thị màn hình thắng khi hoàn thành trò chơi
+- Hiển thị Panel UI thắng đơn giản khi hoàn thành
 ## 4. Hiển thị màn hình thua khi thất bại
+- Hiển thị Panel UI thua đơn giản khi thất bại
 ## 5. Tạo nút Autoplay
 - Khi nhấn vào nút, thực hiện chạy Coroutine sau mỗi 0.5s
 - Duyệt qua tất cả các item trong Board, chọn 3 Item giống nhau và đưa vào Box
